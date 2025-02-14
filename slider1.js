@@ -1,6 +1,6 @@
 // Array of images
 const images = [
-    'img/a.png', 'img/bA.png', 'img/cA.png', 'img/dA.png', 'img/eA.png',
+    'img/a.png', 'img/b.png', 'img/cA.png', 'img/dA.png', 'img/eA.png',
     'img/fA.png', 'img/gA.png', 'img/hA.png', 'img/jA.png', 'img/oA.png',
     'img/kA.png', 'img/lA.png', 'img/mA.png', 'img/nA.png', 'img/tA.png',
     'img/p.png', 'img/q.png', 'img/r.png', 'img/s.png',
