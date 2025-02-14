@@ -1,9 +1,10 @@
 // Array of images
 const images = [
-    'img/a.png', 'img/b.png', 'img/c.png', 'img/d.png', 'img/e.png',
-    'img/f.png', 'img/g.png', 'img/h.png', 'img/i.png', 'img/j.png',
-    'img/k.png', 'img/l.png', 'img/m.png', 'img/n.png', 'img/o.png',
-    'img/p.png', 'img/q.png', 'img/r.png'
+    'img/a.png', 'img/bA.png', 'img/cA.png', 'img/dA.png', 'img/eA.png',
+    'img/fA.png', 'img/gA.png', 'img/hA.png', 'img/jA.png', 'img/oA.png',
+    'img/kA.png', 'img/lA.png', 'img/mA.png', 'img/nA.png', 'img/tA.png',
+    'img/p.png', 'img/q.png', 'img/r.png', 'img/s.png',
+    'img/uA.png', 'img/vA.png', 'img/wA.png', 'img/xA.png',
 ];
 const lastImage = images.length - 1;
 let currentImage = 0;
@@ -24,7 +25,7 @@ document.addEventListener('DOMContentLoaded', function() {
             setTimeout(() => {
                 currentImage = index;
                 imageTag.src = images[currentImage];
-                infoTag.innerHTML = (currentImage + 1) + '/18';
+                infoTag.innerHTML = (currentImage + 1) + '/23';
 
                 // Start fade-in effect
                 imageTag.style.opacity = '1';
@@ -61,4 +62,3 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 });
-
