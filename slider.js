@@ -3,7 +3,8 @@ const images = [
     'img/a.png', 'img/b.png', 'img/c.png', 'img/d.png', 'img/e.png',
     'img/f.png', 'img/g.png', 'img/h.png', 'img/i.png', 'img/j.png',
     'img/k.png', 'img/l.png', 'img/m.png', 'img/n.png', 'img/o.png',
-    'img/p.png', 'img/q.png', 'img/r.png'
+    'img/p.png', 'img/q.png', 'img/r.png', 'img/s.png', 'img/t.png',
+    'img/u.png', 'img/v.png', 'img/w.png', 'img/x.png',
 ];
 const lastImage = images.length - 1;
 let currentImage = 0;
@@ -24,7 +25,7 @@ document.addEventListener('DOMContentLoaded', function() {
             setTimeout(() => {
                 currentImage = index;
                 imageTag.src = images[currentImage];
-                infoTag.innerHTML = (currentImage + 1) + '/18';
+                infoTag.innerHTML = (currentImage + 1) + '/24';
 
                 // Start fade-in effect
                 imageTag.style.opacity = '1';
